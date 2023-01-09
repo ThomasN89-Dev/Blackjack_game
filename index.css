@@ -56,9 +56,14 @@ button:last-of-type {
 
 @media screen and (max-width: 768px) {
   .cards-holder {
-    width: 90%;
+    width: 70%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .cards-holder img {
+    width: 75px;
+    height: 100px;
   }
 }
