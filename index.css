@@ -53,3 +53,12 @@ button:last-of-type {
 #message-el {
   font-style: italic;
 }
+
+@media screen and (max-width: 768px) {
+  .cards-holder {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
