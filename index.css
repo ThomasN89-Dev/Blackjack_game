@@ -40,6 +40,12 @@ button {
   cursor: pointer;
 }
 
+.cards-holder img {
+  width: 150px;
+  height: 200px;
+  margin-left: -45px;
+}
+
 button:last-of-type {
   margin-top: 6px;
 }
